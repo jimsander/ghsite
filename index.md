@@ -1,8 +1,7 @@
 ---
 layout: default
-show_sidebar: false
+show_sidebar: true
 ---
-
 
 {% if page.show_sidebar %}
 > Iterate through posts
