@@ -60,3 +60,5 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 page.show_sidebar: true
+
+theme: jekyll-theme-hacker
