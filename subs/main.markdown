@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Subs Main
 permalink: /subs/index.md/
 ---
