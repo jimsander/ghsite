@@ -1,6 +1,6 @@
 ---
 layout: default
-show_sidebar: true
+show_sidebar: false
 ---
 
 
