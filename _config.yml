@@ -59,6 +59,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-page.show_sidebar: true
+# page.show_sidebar: true
 
-theme: jekyll-theme-hacker
+#theme: jekyll-theme-hacker
