@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-07-11T20:57:54-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jim Sander (IO)</title><subtitle>Semi-Static Site for jimsander.io </subtitle><entry><title type="html">Quick Prep for CKA Exam</title><link href="http://localhost:4000/2022/07/11/CKA-Prep.html" rel="alternate" type="text/html" title="Quick Prep for CKA Exam" /><published>2022-07-11T00:00:00-05:00</published><updated>2022-07-11T00:00:00-05:00</updated><id>http://localhost:4000/2022/07/11/CKA-Prep</id><content type="html" xml:base="http://localhost:4000/2022/07/11/CKA-Prep.html">&lt;p&gt;&lt;img src=&quot;/assets/img/cka-certified-kubernetes-administrator.png&quot; alt=&quot;CKA Cert&quot; width=&quot;25%&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-07-11T21:18:40-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jim Sander (IO)</title><subtitle>Semi-Static Site for jimsander.io </subtitle><entry><title type="html">Quick Prep for CKA Exam</title><link href="http://localhost:4000/2022/07/11/CKA-Prep.html" rel="alternate" type="text/html" title="Quick Prep for CKA Exam" /><published>2022-07-11T00:00:00-05:00</published><updated>2022-07-11T00:00:00-05:00</updated><id>http://localhost:4000/2022/07/11/CKA-Prep</id><content type="html" xml:base="http://localhost:4000/2022/07/11/CKA-Prep.html">&lt;p&gt;&lt;img src=&quot;/assets/img/cka-certified-kubernetes-administrator.png&quot; alt=&quot;CKA Cert&quot; width=&quot;25%&quot; /&gt;
 Having only the most basic high-level hands-on experience with k8s in the past, I thought why not immerse myself a little to prep for the &lt;a href=&quot;https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/&quot;&gt;CKA Exam&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I took a couple of &lt;a href=&quot;https://acloudguru.com/&quot;&gt;A Cloud Guru Courses&lt;/a&gt; and went through their non-industry certificate of completion, I thought I was about ready to begin my first pass at the test.  I say &lt;strong&gt;first&lt;/strong&gt; because, they give you one free re-take, and I was pretty sure I’d flub the initial, &lt;strong&gt;which I did&lt;/strong&gt;.   The failure wasn’t soley on knowledge of the material, rather, the online exam method they use is a virtual “keyhole”; it’s a remote linux desktop.&lt;/p&gt;
@@ -10,28 +10,23 @@ Having only the most basic high-level hands-on experience with k8s in the past, 
   &lt;li&gt;Firefox&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;awk &lt;/span&gt;this shit out of this
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
 &lt;p&gt;The questions are posed in the left of the “portal” where they give you a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;k8s config use &amp;lt;cluster_name&amp;gt;&lt;/code&gt; for each question, and to ensure you don’t &lt;strong&gt;typo&lt;/strong&gt; anything cut and paste the strings into the terminal.   Not so bad, but I was used to using my macbook for command-C or V and Command-F for browser search.   In the Linux desktop it’s slighly different&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;terminal : shift+control+C or V&lt;/li&gt;
+&lt;ol&gt;
+  &lt;li&gt;terminal :
+    &lt;ul&gt;
+      &lt;li&gt;shift+control+C or V&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;firefox:
     &lt;ul&gt;
       &lt;li&gt;control-F to search page&lt;/li&gt;
       &lt;li&gt;control-C to copy text&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;Not a big deal, but it was enough to fluster me to where it chewed up a good bit of my 2 hour window.  Obviously, time is of the essence here.&lt;/p&gt;
-
-&lt;div data-iframe-width=&quot;150&quot; data-iframe-height=&quot;270&quot; data-share-badge-id=&quot;3fc3093f-105c-4df0-8a71-98a528a3d585&quot; data-share-badge-host=&quot;https://www.credly.com&quot;&gt;&lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;//cdn.credly.com/assets/utilities/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://verify.acloud.guru/D04D22AD8A66&quot;&gt;ACloud.Guru: CKA Exam Preparation Certificate of Completion66&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;kuberc&quot;&gt;.kuberc&lt;/h2&gt;
 &lt;p&gt;When &lt;strong&gt;seconds&lt;/strong&gt; count on the exam, &lt;strong&gt;TAKE A MINUTE or two&lt;/strong&gt; to get this in your &lt;em&gt;.bash_profile&lt;/em&gt;&lt;/p&gt;
@@ -48,7 +43,15 @@ alias kcr=&quot;k create &quot;
 alias kgp=&quot;k get po&quot;
 alias kgn=&quot;k get nodes&quot;
 alias kgall=&quot;k get nodes,po,svc,ep -o wide&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jim</name></author><summary type="html">Having only the most basic high-level hands-on experience with k8s in the past, I thought why not immerse myself a little to prep for the CKA Exam.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2022/07/10/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-07-10T11:47:06-05:00</published><updated>2022-07-10T11:47:06-05:00</updated><id>http://localhost:4000/jekyll/update/2022/07/10/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/07/10/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;related-certificates&quot;&gt;Related Certificates&lt;/h2&gt;
+&lt;p&gt;Yay, time well spent&lt;/p&gt;
+&lt;div&gt;
+&lt;div valign=&quot;center&quot;&gt;
+&lt;div data-iframe-width=&quot;150&quot; data-iframe-height=&quot;270&quot; data-share-badge-id=&quot;3fc3093f-105c-4df0-8a71-98a528a3d585&quot; data-share-badge-host=&quot;https://www.credly.com&quot;&gt;&lt;/div&gt;&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;//cdn.credly.com/assets/utilities/embed.js&quot;&gt;&lt;/script&gt; 
+&lt;/div&gt;
+&lt;div valign=&quot;center&quot;&gt;&lt;a href=&quot;https://verify.acloud.guru/D04D22AD8A66&quot;&gt;&lt;img height=&quot;25%&quot; width=&quot;25%&quot; border=&quot;0&quot; src=&quot;/assets/img/CKA-ACloudGuru.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Jim</name></author><summary type="html">Having only the most basic high-level hands-on experience with k8s in the past, I thought why not immerse myself a little to prep for the CKA Exam.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2022/07/10/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-07-10T11:47:06-05:00</published><updated>2022-07-10T11:47:06-05:00</updated><id>http://localhost:4000/jekyll/update/2022/07/10/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/07/10/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
