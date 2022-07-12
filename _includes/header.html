@@ -1,7 +1,9 @@
 {% for page in site.pages %}
-    {% unless page.exclude %}
-       {% if page.title %}
+  {% unless page.exclude %}
+    {% if page.title %}
+      {% unless page.exclude %}
 <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-       {% endif %}
-    {% endunless %}
+      {% endunless %}
+    {% endif %}
+  {% endunless %}
 {% endfor %}
