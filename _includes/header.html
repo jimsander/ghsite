@@ -1,4 +1,4 @@
-{% for page in site.pages %}
+{% for page in site.pages | sort page.weight %}
   {% unless page.exclude %}
     {% if page.title == 'Posts' %}
 <div class="dropdown">

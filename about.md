@@ -2,6 +2,7 @@
 layout: default
 title: About
 permalink: /about/
+weight: 100
 ---
 ## Who am I
 Can safely categorize myself as an [IT Generalist](https://en.wikipedia.org/wiki/Information_technology_generalist)

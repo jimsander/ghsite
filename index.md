@@ -3,6 +3,7 @@ layout: default
 permalink: /
 title: Main
 show_sidebar: true
+weight: 10
 ---
 ## What is this Funky Look?
 Learning how to setup a jekyll dev env and posting to github-pages.  
