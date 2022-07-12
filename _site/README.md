@@ -1,5 +1,3 @@
-In the middle of moving this to Github
+Github Pages has been setup for this repo
 
-```
-Nothing to see here yet
-```
+https://www.jimsander.io
