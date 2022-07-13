@@ -124,16 +124,39 @@
 
     <div class="container">
       <section id="main_content">
-        <h2 id="what-is-this-funky-look">What is this Funky Look?</h2>
-<p>Learning how to setup a jekyll dev env and posting to github-pages.<br />
-Quirky but fun.</p>
+        <div class="collapsible">
+## What is this Funky Look?
+</div>
+<div class="content">
+<p>
+Learning how to setup a jekyll dev env and posting to github-pages.  
+Quirky but fun.
+</p>
 
-<p>Liquid Syntax is new to me, but just another (templating) language.</p>
+<p>Liquid Syntax is new to me, but just another (templating) language. </p>
 
-<p>Interesting side note: <a href="https://shopify.github.io/liquid/" target="_blank">Shopify created it.</a></p>
+Interesting side note: <a href="https://shopify.github.io/liquid/" target="_blank">Shopify created it</a>
+</div>
 
 
       </section>
     </div>
+    <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
   </body>
 </html>
