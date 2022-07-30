@@ -1,0 +1,16 @@
+{% for page in site.pages | sort page.weight %}
+  {% unless page.exclude %}
+    {% if page.title == 'Posts' %}
+<div class="dropdown">
+  <button class="dropbtn">{{ page.title }}</button>
+    <div class="dropdown-content">
+    {% for post in site.posts %}
+<a class="page-link" href="{{ post.url }}">{{ post.title }}</a>
+    {% endfor %}
+    </div>
+</div>
+    {% else %}
+<a class="page-link" href="{{ page.url }}">{{ page.title }}</a>
+    {% endif %}
+  {% endunless %}
+{% endfor %}

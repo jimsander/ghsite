@@ -1,4 +1,6 @@
 ---
 layout: default
+permalink: /posts
+weight: 0
 ---
-Nope
+Ramblings of Randomness
