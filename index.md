@@ -36,7 +36,7 @@ I'm just experimenting with "JAM Stack" (JavaScript, API, Markup/down) or as som
 The simplified concept is that front end content is "static", meaning, the content is pre-built then pushed to cloud storage/CDNs.  Don't confuse 'static' with do-nothing presentation only content, rather, javascript and API calls can make the content dynamic.  
 </p>
 <p>
-The big difference is that with the **OLD** web server model, pages were rendered by calling a backend db, which is overkill, and not scalable.  
+The big difference is that with the **OLD** web server model, pages were rendered by calling a backend db, which is overkill, and didn't scale well.  
 
 </p>
 </div>
